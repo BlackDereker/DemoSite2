@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                deploy adapters: [tomcat7(credentialsId: 'admin', path: '', url: 'http://localhost:8080')], contextPath: 'demosite', onFailure: false, war: '**/*.war'
+                deploy adapters: [tomcat7(credentialsId: 'admin', path: '/manager', url: 'http://localhost:8080')], contextPath: 'demosite', onFailure: false, war: '**/*.war'
             }
         }
     }
