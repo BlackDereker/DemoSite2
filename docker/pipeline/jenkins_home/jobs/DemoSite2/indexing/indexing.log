@@ -1,26 +1,23 @@
 Started by user unknown or anonymous
-[Thu Dec 10 04:00:01 UTC 2020] Starting branch indexing...
-[8mha:////4ADWHnnUUbVJii89dAZWIXZEMepg2HNfXtjWjmHWi9jZAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSZ1zmPmQAe21KJjgAAAA==[0mConnecting to https://api.github.com with no credentials, anonymous access
-[8mha:////4FNncgQ2FjmmnObU43O+l1MYtB+LHOj/iWIRVJ1pMJ+uAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSZ1znvcwCKTHBXjgAAAA==[0mJenkins-Imposed API Limiter: Current quota for Github API usage has 44 remaining (2 under budget). Next quota of 60 in 42 min
-Examining [8mha:////4NriM8ubjzv9z1cEKRVIyT/qRfkrvntqXn35TUw6OQOCAAAAqR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQK2HQzCgpKSi20tdPzyzJKE0C6srVd8pJTM52SS1KzU4t0ndJzc0PzixJNQIAQpAVSq4AAAA=[0mBlackDereker/DemoSite2
+[Thu Dec 10 05:05:10 UTC 2020] Starting branch indexing...
+[8mha:////4F48NAHgQyX9+0IsvIG39QldOc0Kix+adl3mG73V8AKtAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSZN+fbjQDo3MtDjgAAAA==[0mConnecting to https://api.github.com with no credentials, anonymous access
+[8mha:////4EfzX3Y0JDy0RdPBmVX002wGdLB5tvLYPSKv7X6OKWqPAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSZN+cnYwB6MCeNjgAAAA==[0mJenkins-Imposed API Limiter: Current quota for Github API usage has 53 remaining (9 under budget). Next quota of 60 in 45 min
+Examining [8mha:////4Km0pCa/0tx6F/Y2yXOMWmB7YWbO3qBmEhUs2UflgGACAAAAqR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQK2HQzCgpKSi20tdPzyzJKE0C6srVd8pJTM52SS1KzU4t0ndJzc0PzixJNQIAQpAVSq4AAAA=[0mBlackDereker/DemoSite2
 
   Checking branches...
-[8mha:////4DOmvs4sRZfjPI9ytKKJuzOal2AvpvLkF6RvjlHPBrBaAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSZ1zmfRwCutukqjgAAAA==[0mJenkins-Imposed API Limiter: Current quota for Github API usage has 43 remaining (1 under budget). Next quota of 60 in 42 min
+[8mha:////4BwPq8LsQh8McANJ+kk6kC3k4ji1BsCeDcNFaeynjylYAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSZN+fnmQDNSz+ijgAAAA==[0mJenkins-Imposed API Limiter: Current quota for Github API usage has 52 remaining (8 under budget). Next quota of 60 in 45 min
 
   Getting remote branches...
 
-    Checking branch [8mha:////4DppY8XYQ6YBi49Bdq62UgvjAIvqaXXnp+NRwG4NWea0AAAAsh+LCAAAAAAAAP9djL0NwjAQRo/wMwAlYoZYAokClAZSgBTRZAITTraJY1uXCwprsAY0DME47EBQOl7zveZ7zw+Ma4K5bs61d3HhXe0txvtbQLLGlUfPuEoer+Qe3hFEB5hYdIp1BsOGLMM0u8irFFY6JXIm49SmJZj95Xb9/mLQM4gA2tDJiGGpmUO9FkIZ1s2pe1Via2VRpkhYIokUK58bxoVgQhSVNO4LRHWfzrgAAAA=[0mmain
-[8mha:////4LxpFMb1+nJAWUYJbQ2fZ/2bhzH47/u1SuMnBCiV6StIAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSZ1zk/CwDm79l+jgAAAA==[0mJenkins-Imposed API Limiter: Current quota for Github API usage has 43 remaining (1 under budget). Next quota of 60 in 42 min
+    Checking branch [8mha:////4BwMeI1dsPJNlI8X3afS1OsCQAqnYLqmG0sgCilHS77QAAAAsh+LCAAAAAAAAP9djL0NwjAQRo/wMwAlYoZYAokClAZSgBTRZAITTraJY1uXCwprsAY0DME47EBQOl7zveZ7zw+Ma4K5bs61d3HhXe0txvtbQLLGlUfPuEoer+Qe3hFEB5hYdIp1BsOGLMM0u8irFFY6JXIm49SmJZj95Xb9/mLQM4gA2tDJiGGpmUO9FkIZ1s2pe1Via2VRpkhYIokUK58bxoVgQhSVNO4LRHWfzrgAAAA=[0mmain
+[8mha:////4JGjlQYMu4cH/HohpZbQn87GGQqOjag1ZKU0h+EsCJf2AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSZN+dXDQBRbwNIjgAAAA==[0mJenkins-Imposed API Limiter: Current quota for Github API usage has 52 remaining (8 under budget). Next quota of 60 in 45 min
 
   Getting remote pull requests...
       ‘Jenkinsfile’ found
     Met criteria
-Changes detected: main (9383a5342899182716e3794d870eeec69e9f5793 → 673121819f8c0f6f7884b8062790590cbdc75270)
+Changes detected: main (673121819f8c0f6f7884b8062790590cbdc75270 → f10370fb199daed77cd676c40f050e16fbf592a6)
 Scheduled build for branch: main
-[8mha:////4LRH3uLYYhYjNTVxA9zzTg51VgkkEafd6NaWX6EsDYnGAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSZ17kgJgAJa6JejgAAAA==[0mJenkins-Imposed API Limiter: Current quota for Github API usage has 41 remaining (1 over budget). Next quota of 60 in 42 min. Sleeping for 4 min 37 sec.
-[8mha:////4LdHRvxT2afLBK/RMvP4pznNNxf1sF/frqrBnelAHepTAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSZ17kgFgA8zsG3jgAAAA==[0mJenkins is attempting to evenly distribute GitHub API requests. To configure a different rate limiting strategy, such as having Jenkins restrict GitHub API requests only when near or above the GitHub rate limit, go to "GitHub API usage" under "Configure System" in the Jenkins settings.
-[8mha:////4NsGULghYhIaoupeShIdYYSRYlJW2fV0NYcOAm7yMVEoAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSZ10VBVQDpJoY3jgAAAA==[0mJenkins-Imposed API Limiter: Still sleeping, now only 1 min 37 sec remaining.
-[8mha:////4GND3CDA/0DvFavdUqGINC8pIxr6LWdMu7T4v1AN3cMsAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSZ16W+IwCL3BQUjgAAAA==[0mJenkins-Imposed API Limiter: Current quota for Github API usage has 41 remaining (2 under budget). Next quota of 60 in 37 min
+[8mha:////4MwsvhKbP9cETBoh00+i15CiOrNgwcWy6u04pP2F5cMEAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSZN+ePhwAIaxUfjgAAAA==[0mJenkins-Imposed API Limiter: Current quota for Github API usage has 50 remaining (6 under budget). Next quota of 60 in 45 min
 
   1 branches were processed
 
@@ -30,5 +27,5 @@ Scheduled build for branch: main
 
 Finished examining BlackDereker/DemoSite2
 
-[Thu Dec 10 04:04:42 UTC 2020] Finished branch indexing. Indexing took 4 min 40 sec
+[Thu Dec 10 05:05:13 UTC 2020] Finished branch indexing. Indexing took 3.3 sec
 Finished: SUCCESS
