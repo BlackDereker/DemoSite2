@@ -1,0 +1,43 @@
+version: "3.8"
+services:
+  database:
+    container_name: demosite_db
+    image: mysql:5.7
+    restart: always
+    ports: 
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - ./docker/database/initdb.d:/docker-entrypoint-initdb.d
+      - ./docker/database/allow_ext.cnf:/etc/mysql/allow_external.cnf
+
+  web:
+    container_name: demosite_web
+    image: tomcat:7
+    ports:
+      - "8888:8080"
+      - "8443:8443"
+    volumes:
+      - ./docker/web/.keystore:/usr/local/tomcat/conf/.keystore
+      - ./docker/web/server.xml:/usr/local/tomcat/conf/server.xml
+    depends_on:
+      - database
+
+  pipeline:
+    container_name: demosite_pipeline
+    image: blackdereker/jenkins
+    ports:
+      - "8080:8080"
+    environment:
+      JAVA_OPTS: -Djenkins.install.runSetupWizard=false
+      JENKINS_OPTS: --argumentsRealm.roles.user=admin --argumentsRealm.passwd.admin=admin --argumentsRealm.roles.admin=admin
+    volumes:
+      - ./docker/pipeline/jenkins_home/jobs:/var/jenkins_home/jobs
+      - /var/run/docker.sock:/var/run/docker.sock
+    privileged: true
+    deploy:
+      replicas: 1
+    depends_on:
+      - database
+      - web
