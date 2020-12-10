@@ -14,3 +14,4 @@ bin/
 .sts4-cache
 data
 .cache/
+.log

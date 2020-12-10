@@ -1,0 +1,281 @@
+Started by user unknown or anonymous
+[8mha:////4GeTewbtbuSUdzeOp+tKvpT8WWQATeq3etMKQGlw8gyQAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSZ1x+7XACVAghtjgAAAA==[0mConnecting to https://api.github.com with no credentials, anonymous access
+[8mha:////4AIoDPaWbn6nm8Bzwc916th5/ff8R5H9VCq515F2duHFAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSZ1x+7cgDv+2qQjgAAAA==[0mJenkins-Imposed API Limiter: Current quota for Github API usage has 59 remaining (5 under budget). Next quota of 60 in 1 hr 0 min
+Obtained Jenkinsfile from 673121819f8c0f6f7884b8062790590cbdc75270
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4JGd69rxzx+lp7FsZ9Bzr5ayKu54y3rxE0LOJI/KEMCiAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4FyZ/mDDvfn8OrqCYlPrw0tRHmnLGE8qctDdcb4g2SDJAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4DIDKUYxOvuAhhjpeB03xxgkP0kyrOx6OdO1OjbcuDIRAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/jobs/DemoSite2/branches/main/workspace
+[8mha:////4DMh+joxwc9U2LDQX3egusIIOoQmRSKmXttaSACJZL1IAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4K2oibaQBoclVLtuMYohptBRSn9jv9ZaJerHqPeVFoUFAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4AMD2endMCf1bM1diXu/X/S/YXGejgAifdar2vA2kgZaAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4AYJ922DVzaV9jmRfMcU1hrl9Bs1hFPOmKG27q1Fq6L6AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/BlackDereker/DemoSite2.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/BlackDereker/DemoSite2.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+ > git fetch --no-tags --force --progress -- https://github.com/BlackDereker/DemoSite2.git +refs/heads/main:refs/remotes/origin/main # timeout=10
+Checking out Revision 673121819f8c0f6f7884b8062790590cbdc75270 (main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 673121819f8c0f6f7884b8062790590cbdc75270 # timeout=10
+Commit message: "Jenkisfile update and pipeline creation"
+ > git rev-list --no-walk 673121819f8c0f6f7884b8062790590cbdc75270 # timeout=10
+[8mha:////4EJj0GzTFPIUFLVxJaeaEueNtflzZKTylFZa1NqynehVAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4BJ7muzVZOTn3fXK6/tziVHRFVY+JfRkRR4s4TFbK23HAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4FsNjybQt5jFwQfIGHJs4IdQUEXs7HEmD6ytACUpk8xsAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4LtiBz29cI3MUBGjGVfdmkSSe2mG5h6t+EEQzdvL+LXIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4HX9KtXBogQLmLqvgcNc+NlXq6ikz/u+PdM4/qi7c5hnAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] isUnix
+[8mha:////4F4+o5YYMhIgjGoQ+YdWmMcr95x6Em2q4j9rEJqXphF9AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] sh
++ docker inspect -f . maven:3-alpine
+.
+[8mha:////4AEAZ3MbIlIkxEn4tSK/8eRFmZzTglZ+aXs2W2QIDuPcAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUldgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AHLv803CAAAA[0m[Pipeline] withDockerContainer
+Jenkins seems to be running inside container 1ee0b0e113cf5f3a40fa616148f570b17a80bebc9691608ab592c75f9e845404
+$ docker run -t -d -u 0:0 -v /root/.m2:/root/.m2 -w /var/jenkins_home/jobs/DemoSite2/branches/main/workspace --volumes-from 1ee0b0e113cf5f3a40fa616148f570b17a80bebc9691608ab592c75f9e845404 -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** maven:3-alpine cat
+$ docker top c0af8d3a3111b66dba1708317648caa6617cc65ce0be9432859a80d9e8ef1785 -eo pid,comm
+[8mha:////4CS2ST6gBLTsuET/5oJGv2pPVKdhrBlkgwgSY5lAo4A0AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4EFB9ki896oGZVfLp80QmP2YFnATeDG+UmZKBpoE0uagAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] stage
+[8mha:////4NRabZrXoq+PvcqQTSrwVVbCSzWAMOcN3zFGvLVE/i7HAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Build)
+[8mha:////4AMG/xKgGix093Wabm46bbKBSMA6TEM3qHOzAIyQ1aDCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ mvn -f src/pom.xml clean install
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Broadleaf Spring Boot Community Demo
+[INFO] Community Demo Core
+[INFO] Community Demo Site
+[INFO] Community Demo Admin
+[INFO] Community Demo API
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Broadleaf Spring Boot Community Demo 1.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ boot-community-demo ---
+[INFO] 
+[INFO] --- jrebel-maven-plugin:1.1.7:generate (generate-rebel-xml) @ boot-community-demo ---
+[INFO] Processing com.mycompany-community:boot-community-demo with packaging pom
+[WARNING] Unsupported packaging type: pom
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ boot-community-demo ---
+[INFO] Installing /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/pom.xml to /root/.m2/repository/com/mycompany-community/boot-community-demo/1.0.0-SNAPSHOT/boot-community-demo-1.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Community Demo Core 1.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ boot-community-demo-core ---
+[INFO] Deleting /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/core/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ boot-community-demo-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 77 resources
+[INFO] 
+[INFO] --- jrebel-maven-plugin:1.1.7:generate (generate-rebel-xml) @ boot-community-demo-core ---
+[INFO] Processing com.mycompany-community:boot-community-demo-core with packaging jar
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ boot-community-demo-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/core/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ boot-community-demo-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/core/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ boot-community-demo-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ boot-community-demo-core ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ boot-community-demo-core ---
+[INFO] Building jar: /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/core/target/boot-community-demo-core-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ boot-community-demo-core ---
+[INFO] Installing /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/core/target/boot-community-demo-core-1.0.0-SNAPSHOT.jar to /root/.m2/repository/com/mycompany-community/boot-community-demo-core/1.0.0-SNAPSHOT/boot-community-demo-core-1.0.0-SNAPSHOT.jar
+[INFO] Installing /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/core/pom.xml to /root/.m2/repository/com/mycompany-community/boot-community-demo-core/1.0.0-SNAPSHOT/boot-community-demo-core-1.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Community Demo Site 1.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ boot-community-demo-site ---
+[INFO] Deleting /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/site/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ boot-community-demo-site ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 231 resources
+[INFO] 
+[INFO] --- jrebel-maven-plugin:1.1.7:generate (generate-rebel-xml) @ boot-community-demo-site ---
+[INFO] Processing com.mycompany-community:boot-community-demo-site with packaging jar
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ boot-community-demo-site ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 30 source files to /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/site/target/classes
+[INFO] /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/site/src/main/java/com/community/controller/account/OrderHistoryController.java: Some input files use or override a deprecated API.
+[INFO] /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/site/src/main/java/com/community/controller/account/OrderHistoryController.java: Recompile with -Xlint:deprecation for details.
+[INFO] /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/site/src/main/java/com/community/configuration/SiteServletConfig.java: Some input files use unchecked or unsafe operations.
+[INFO] /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/site/src/main/java/com/community/configuration/SiteServletConfig.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:copy (copy-agent) @ boot-community-demo-site ---
+[INFO] Configured Artifact: org.springframework:spring-instrument:5.1.16.RELEASE:jar
+[INFO] Copying spring-instrument-5.1.16.RELEASE.jar to /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/site/target/agents/spring-instrument.jar
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ boot-community-demo-site ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/site/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ boot-community-demo-site ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ boot-community-demo-site ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ boot-community-demo-site ---
+[INFO] Building jar: /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/site/target/ROOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.1.15.RELEASE:repackage (repackage) @ boot-community-demo-site ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ boot-community-demo-site ---
+[INFO] Installing /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/site/target/ROOT.jar to /root/.m2/repository/com/mycompany-community/boot-community-demo-site/1.0.0-SNAPSHOT/boot-community-demo-site-1.0.0-SNAPSHOT.jar
+[INFO] Installing /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/site/pom.xml to /root/.m2/repository/com/mycompany-community/boot-community-demo-site/1.0.0-SNAPSHOT/boot-community-demo-site-1.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Community Demo Admin 1.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ boot-community-demo-admin ---
+[INFO] Deleting /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/admin/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ boot-community-demo-admin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 11 resources
+[INFO] 
+[INFO] --- jrebel-maven-plugin:1.1.7:generate (generate-rebel-xml) @ boot-community-demo-admin ---
+[INFO] Processing com.mycompany-community:boot-community-demo-admin with packaging jar
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ boot-community-demo-admin ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/admin/target/classes
+[INFO] /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/admin/src/main/java/com/community/admin/configuration/AdminServletConfig.java: /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/admin/src/main/java/com/community/admin/configuration/AdminServletConfig.java uses or overrides a deprecated API.
+[INFO] /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/admin/src/main/java/com/community/admin/configuration/AdminServletConfig.java: Recompile with -Xlint:deprecation for details.
+[INFO] /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/admin/src/main/java/com/community/admin/configuration/AdminSecurityConfig.java: Some input files use unchecked or unsafe operations.
+[INFO] /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/admin/src/main/java/com/community/admin/configuration/AdminSecurityConfig.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:copy (copy-agent) @ boot-community-demo-admin ---
+[INFO] Configured Artifact: org.springframework:spring-instrument:5.1.16.RELEASE:jar
+[INFO] Copying spring-instrument-5.1.16.RELEASE.jar to /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/admin/target/agents/spring-instrument.jar
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ boot-community-demo-admin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/admin/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ boot-community-demo-admin ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ boot-community-demo-admin ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ boot-community-demo-admin ---
+[INFO] Building jar: /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/admin/target/admin.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.1.15.RELEASE:repackage (repackage) @ boot-community-demo-admin ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ boot-community-demo-admin ---
+[INFO] Installing /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/admin/target/admin.jar to /root/.m2/repository/com/mycompany-community/boot-community-demo-admin/1.0.0-SNAPSHOT/boot-community-demo-admin-1.0.0-SNAPSHOT.jar
+[INFO] Installing /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/admin/pom.xml to /root/.m2/repository/com/mycompany-community/boot-community-demo-admin/1.0.0-SNAPSHOT/boot-community-demo-admin-1.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Community Demo API 1.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ boot-community-demo-api ---
+[INFO] Deleting /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/api/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ boot-community-demo-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/api/src/main/resources
+[INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/api/src/main/resources
+[INFO] 
+[INFO] --- jrebel-maven-plugin:1.1.7:generate (generate-rebel-xml) @ boot-community-demo-api ---
+[INFO] Processing com.mycompany-community:boot-community-demo-api with packaging jar
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ boot-community-demo-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:copy (copy-agent) @ boot-community-demo-api ---
+[INFO] Configured Artifact: org.springframework:spring-instrument:5.1.16.RELEASE:jar
+[INFO] Copying spring-instrument-5.1.16.RELEASE.jar to /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/api/target/agents/spring-instrument.jar
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ boot-community-demo-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/api/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ boot-community-demo-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ boot-community-demo-api ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ boot-community-demo-api ---
+[INFO] Building jar: /var/jenkins_home/jobs/DemoSite2/branches/main/workspace/src/api/target/api.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.1.15.RELEASE:repackage (repackage) @ boot-community-demo-api ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Broadleaf Spring Boot Community Demo ............... SUCCESS [  0.524 s]
+[INFO] Community Demo Core ................................ SUCCESS [ 22.126 s]
+[INFO] Community Demo Site ................................ SUCCESS [ 55.974 s]
+[INFO] Community Demo Admin ............................... SUCCESS [  8.656 s]
+[INFO] Community Demo API ................................. FAILURE [  0.507 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:28 min
+[INFO] Finished at: 2020-12-10T04:52:07Z
+[INFO] Final Memory: 70M/726M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.1.15.RELEASE:repackage (repackage) on project boot-community-demo-api: Execution repackage of goal org.springframework.boot:spring-boot-maven-plugin:2.1.15.RELEASE:repackage failed: Unable to find main class -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :boot-community-demo-api
+[8mha:////4DUYvfnxue5Skf0ozcoQb2kVg6G9ICkyKEoDNdziG/nzAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9Jjga++AAAA[0m[Pipeline] }
+[8mha:////4G9re+8IlAnvJRdJc/1v263GZAQf7DwRXwbz4Jn3u7q2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] // stage
+[8mha:////4HfMVcNvtrA11MmvG5dEP54BrGDyH229seONknj/pjMxAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohURWJCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFs9tl2zedZvQHeFw+cwgAAAA==[0m[Pipeline] stage
+[8mha:////4O20PRImavYcfYIPWlD4r3FqI7tDNQbMRHj1MiXItQCDAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (Test)
+Stage "Test" skipped due to earlier failure(s)
+[8mha:////4F+5vtwmBmpiO3229zUzu4OUc+uq+wjYzkk/orWDe2X7AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3Zf21ZL4AAAA=[0m[Pipeline] }
+[8mha:////4FoD/0/j/aF0IJaKzNXlZDVX511FcKAqz+0cGDuFmb3aAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BmecueC+AAAA[0m[Pipeline] // stage
+[8mha:////4JRx93Xi/1jPE9JWxJNjjBRl2URvB3L6N/Nv+2oD+wrAAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIHVCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDcNdn2zedZvQHIVZ4HwgAAAA==[0m[Pipeline] stage
+[8mha:////4EV3YVTQ2C6syxQyP4KxEuXmPeNk5S0J+z+l/9eINbErAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] { (Deploy)
+Stage "Deploy" skipped due to earlier failure(s)
+[8mha:////4BBlwyAA5m8mSuoiyOeISkBoadYXaDZ9v4AiJOc8Bc6+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFqe0n4vgAAAA==[0m[Pipeline] }
+[8mha:////4P1+Vy7W2JOSDOGEqN2Vg8VhatO3Y5MPXzZD8QMT8XY6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGEDKU2/2ndm8FmBaQvgAAAA==[0m[Pipeline] // stage
+[8mha:////4I6JjrTeDmSISZy+vJsL9SZt3oaYT9WDu2hPdQ3EOdUbAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AYxhncL4AAAA=[0m[Pipeline] }
+$ docker stop --time=1 c0af8d3a3111b66dba1708317648caa6617cc65ce0be9432859a80d9e8ef1785
+$ docker rm -f c0af8d3a3111b66dba1708317648caa6617cc65ce0be9432859a80d9e8ef1785
+[8mha:////4GXJPfFjolAWeB8lT+TaX+80aq4eqyaD+mnGgzXGf+0iAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICgg6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrnf5todPolyGIa+AAAA[0m[Pipeline] // withDockerContainer
+[8mha:////4BhUnjpwp6/fZ2HNcjm85J70GNKUxwyC1uE7Gi9x2WniAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRRImoaC03vMAkxtix7ox9Ial4EV/jD1hEomKL1c4283rDOic4UrLCGxwc5s6JGEZblpgoDddAk/B0ER1hpmCEMpOi3pwWVMQGllQ1rCRsDHaBskPLsJVeP3QTNNrmzKl8Bwm16+/whEoWM+vEX5gT7G5jnwl/nr8CmGNkqPdtqbb9AKNVLj2+AAAA[0m[Pipeline] }
+[8mha:////4G4ZXLT/E8f1A83T9bLkKU+KeNq+m0s9r8lfcwdV8aRvAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY59ptP5sXvcy+AAAA[0m[Pipeline] // withEnv
+[8mha:////4D5BVXchMkSLQmAn/QivTkrIkPT/Z6VmRPOfCUJiE9SkAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU2DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyshRk+w9e8C3YvQAAAA==[0m[Pipeline] }
+[8mha:////4P/fZKMJBfkfbNGQ9rmjJPObEbmhRZdCbKMKGPKZLlYFAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU2DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg/tuWn0vQAAAA==[0m[Pipeline] // node
+[8mha:////4NHfUK13L8y00NsPievr5VZ2/lVzhjbbKkghR2NuMgKuAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPy6AOvr0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE
