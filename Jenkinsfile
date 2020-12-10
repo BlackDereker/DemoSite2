@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn clean install'
+                sh 'mvn -f src/pom.xml clean install'
             }
         }
         stage('Test') {
