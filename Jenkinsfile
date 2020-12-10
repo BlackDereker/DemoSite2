@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'mvn test'
+                echo 'mvn -f src/pom.xml test'
             }
         }
         stage('Deploy') {
