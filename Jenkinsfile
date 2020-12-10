@@ -1,14 +1,9 @@
 pipeline {
-    agent {
-        docker {
-            image 'alpine' 
-        }
-    }
+    agent { 
+        docker 'maven:3-alpine'
+    } 
     stages {
         stage('Build') {
-            agent { 
-                docker 'maven:3-alpine'
-            } 
             steps {
                 sh 'mvn -f src/pom.xml clean install'
             }
