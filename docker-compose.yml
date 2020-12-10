@@ -14,11 +14,10 @@ services:
 
   web:
     container_name: demosite_web
-    image: tomcat:7
+    image: blackdereker/tomcat:latest
     ports:
       - "8080:8080"
       - "8443:8443"
-    #command: mv /usr/local/tomcat/webapps.dist/* /usr/local/tomcat/webapps/
     volumes:
       - ./docker/web/.keystore:/usr/local/tomcat/conf/.keystore
       - ./docker/web/server.xml:/usr/local/tomcat/conf/server.xml
