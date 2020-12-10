@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                deploy adapters: [tomcat7(credentialsId: 'admin', path: '', url: 'http://172.22.0.4:8080')], contextPath: '*.war', onFailure: false, war: '**/*.war'
+                deploy adapters: [tomcat7(credentialsId: 'admin', path: '', url: 'http://172.22.0.4:8080')], contextPath: '', onFailure: false, war: '**/*.war'
             }
         }
     }
