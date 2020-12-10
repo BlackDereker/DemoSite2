@@ -1,6 +1,6 @@
 pipeline {
     agent { 
-        docker 'maven:3-jdk8'
+        docker 'maven:3-jdk-8'
     } 
     stages {
         stage('Build') {
