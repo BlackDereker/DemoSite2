@@ -1,0 +1,46 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.7">
+  <node class="cps.n.StepEndNode" plugin="workflow-cps@2.87">
+    <parentIds>
+      <string>31</string>
+    </parentIds>
+    <id>32</id>
+    <startId>14</startId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@2.40">
+      <startTime>1607621565207</startTime>
+    </wf.a.TimingAction>
+    <wf.a.ErrorAction plugin="workflow-api@2.40">
+      <error class="org.codehaus.cargo.container.ContainerException" plugin="deploy@1.16">
+        <detailMessage>The [cargo.remote.username] and [cargo.remote.password] properties are mandatory and need to be defined in your configuration.</detailMessage>
+        <stackTrace>
+          <trace>org.codehaus.cargo.container.tomcat.internal.AbstractTomcatManagerDeployer.createManager(AbstractTomcatManagerDeployer.java:287)</trace>
+          <trace>org.codehaus.cargo.container.tomcat.internal.AbstractTomcatManagerDeployer.getTomcatManager(AbstractTomcatManagerDeployer.java:82)</trace>
+          <trace>org.codehaus.cargo.container.tomcat.internal.AbstractTomcatManagerDeployer.redeploy(AbstractTomcatManagerDeployer.java:161)</trace>
+          <trace>hudson.plugins.deploy.CargoContainerAdapter.deploy(CargoContainerAdapter.java:81)</trace>
+          <trace>hudson.plugins.deploy.CargoContainerAdapter$DeployCallable.invoke(CargoContainerAdapter.java:167)</trace>
+          <trace>hudson.plugins.deploy.CargoContainerAdapter$DeployCallable.invoke(CargoContainerAdapter.java:136)</trace>
+          <trace>hudson.FilePath.act(FilePath.java:1076)</trace>
+          <trace>hudson.FilePath.act(FilePath.java:1059)</trace>
+          <trace>hudson.plugins.deploy.CargoContainerAdapter.redeployFile(CargoContainerAdapter.java:133)</trace>
+          <trace>hudson.plugins.deploy.PasswordProtectedAdapterCargo.redeployFile(PasswordProtectedAdapterCargo.java:95)</trace>
+          <trace>hudson.plugins.deploy.DeployPublisher.perform(DeployPublisher.java:113)</trace>
+          <trace>jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:123)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.CoreStep$Execution.run(CoreStep.java:99)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.CoreStep$Execution.run(CoreStep.java:69)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)</trace>
+          <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</trace>
+          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+          <trace>java.lang.Thread.run(Thread.java:748)</trace>
+        </stackTrace>
+        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+          <c class="list"/>
+          <list reference="../c"/>
+        </suppressedExceptions>
+      </error>
+    </wf.a.ErrorAction>
+  </actions>
+</Tag>

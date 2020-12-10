@@ -1,0 +1,11 @@
+commit 052809132ab385f2aa5348f3ed7011f8cef6b62f
+tree ba9824f0c53a753228bdfa21be6c4078b91f8c7e
+parent 8f58bab2c8d38f79c571004dd32cd0e83bc79fb0
+author Bruno Godoi Machado <bruno.machado@mutantbr.com> 2020-12-10 13:44:44 -0300
+committer Bruno Godoi Machado <bruno.machado@mutantbr.com> 2020-12-10 13:44:44 -0300
+
+    Fixed error changing wrong pom.xml
+
+
+:100644 100644 e5ac7e88117c6b2670ac66ecd976401e8cfe5002 c6699df56ae6579977610b8c5ececa507bb08e7d M	src/admin/pom.xml
+:100644 100644 ad2824d7060c31f03e5ea0f35506660e916d2370 26d5a2d1898cf74cfcf9c792159cfb25b478e580 M	src/core/pom.xml

@@ -21,12 +21,13 @@ services:
     volumes:
       - ./docker/web/.keystore:/usr/local/tomcat/conf/.keystore
       - ./docker/web/server.xml:/usr/local/tomcat/conf/server.xml
+      - ./docker/web/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml
     depends_on:
       - database
 
   pipeline:
     container_name: demosite_pipeline
-    image: blackdereker/jenkins
+    image: blackdereker/jenkins:latest
     ports:
       - "8888:8080"
     environment:

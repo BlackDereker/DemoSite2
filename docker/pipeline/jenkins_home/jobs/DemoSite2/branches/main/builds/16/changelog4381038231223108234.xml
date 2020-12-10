@@ -1,0 +1,20 @@
+commit 8f58bab2c8d38f79c571004dd32cd0e83bc79fb0
+tree bf40cf1267af009a992f9bf5225bcd4307ea8038
+parent 188dd2dedb416e6e22ccc8b23193ba96d2ae4a0b
+author Bruno Godoi Machado <bruno.machado@mutantbr.com> 2020-12-10 13:41:59 -0300
+committer Bruno Godoi Machado <bruno.machado@mutantbr.com> 2020-12-10 13:41:59 -0300
+
+    Removed dependency
+
+
+:100644 100644 00ea4dada456080de2a9fbd23100dde6ecb9b856 ad2824d7060c31f03e5ea0f35506660e916d2370 M	src/core/pom.xml
+commit 188dd2dedb416e6e22ccc8b23193ba96d2ae4a0b
+tree 6bf265b82874738e9c81dcfd94160c41c75c03d2
+parent cb8f4d996b4f438b5b9833dcb8835c9eb814a09d
+author Bruno Godoi Machado <bruno.machado@mutantbr.com> 2020-12-10 13:40:31 -0300
+committer Bruno Godoi Machado <bruno.machado@mutantbr.com> 2020-12-10 13:40:31 -0300
+
+    Changed core from war to jar
+
+
+:100644 100644 c6699df56ae6579977610b8c5ececa507bb08e7d e5ac7e88117c6b2670ac66ecd976401e8cfe5002 M	src/admin/pom.xml

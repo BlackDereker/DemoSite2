@@ -12,6 +12,7 @@ cloudbees-folder
 command-launcher
 credentials-binding
 credentials
+deploy
 display-url-api
 docker-commons
 docker-java-api
@@ -79,4 +80,3 @@ workflow-scm-step
 workflow-step-api
 workflow-support
 ws-cleanup
-deploy
