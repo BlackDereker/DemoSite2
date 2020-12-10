@@ -34,6 +34,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
             <groupId>com.mycompany-community</groupId>
             <artifactId>boot-community-demo-core</artifactId>
         </dependency>

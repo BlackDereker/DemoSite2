@@ -1,0 +1,101 @@
+commit f6e16ea1b7d6703f7445967fdcf6ca64ea70721c
+tree d9f634268197d984579a38188b1f351062dc2b60
+parent c547294befe1239956fc534e293e2c2bb5d4082a
+author Bruno Godoi Machado <bruno.machado@mutantbr.com> 2020-12-10 04:42:49 -0300
+committer Bruno Godoi Machado <bruno.machado@mutantbr.com> 2020-12-10 04:42:49 -0300
+
+    Jenkisnfile update
+
+
+:100644 100644 c2236766c2ed4b3a90530cba779bbd31222d402f f3959fb076ce2d2132a9b31ba981463502fa58c5 M	Jenkinsfile
+commit c547294befe1239956fc534e293e2c2bb5d4082a
+tree ed7d52dc89f422d9f4a8f2e7539816edc465319e
+parent cd2205361b3e370b268d7746896ae7cad38f960f
+author Bruno Godoi Machado <bruno.machado@mutantbr.com> 2020-12-10 04:42:08 -0300
+committer Bruno Godoi Machado <bruno.machado@mutantbr.com> 2020-12-10 04:42:08 -0300
+
+    Converted jar to war
+
+
+:100644 100644 d2e442068338c348d2a53014fe9733f90e615eff ea2980f799a4538c88021ded7e81fd78a88ed549 M	docker-compose.yml
+:100644 100644 c7c028649d07b59ba797fe64007d4e5e9c55755d 9b759398d46030a1e804216ab456d07d05461e79 M	src/admin/pom.xml
+:100644 100644 95b2079c998c8bb200f774d808397efdf4849355 dfb32aaf0662beb882c211658fd973517f74e225 M	src/admin/src/main/java/com/community/admin/AdminApplication.java
+:000000 100644 0000000000000000000000000000000000000000 b2771849c8330e3725ea98614a0784a11e713efa A	src/admin/src/main/webapp/WEB-INF/web.xml
+:100644 100644 cac389b0d7c9ebbb6069eebc89ba9affbfba4ea0 89ffd2ace6f526513b905c8c4942dc9a412b635d M	src/api/pom.xml
+:100644 100644 5f2c7eec689dead70dc50670cc91d40b594be166 252613641c4220d4fd70e75f724de27010052497 M	src/api/src/main/java/com/community/api/ApiApplication.java
+:000000 100644 0000000000000000000000000000000000000000 ef83df2391965a601dc56988f990d103bd1a33fe A	src/api/src/main/webapp/WEB-INF/web.xml
+:100644 100644 3abba130c407afa36a21dd4cae68e9736b4ef425 ad2824d7060c31f03e5ea0f35506660e916d2370 M	src/core/pom.xml
+:000000 100644 0000000000000000000000000000000000000000 046aa0b2f23dd9404ad29e79fed164aa19c25b31 A	src/core/src/main/webapp/WEB-INF/web.xml
+:100644 100644 580954fe93aa6580bd9de25cf825e858f0059527 f35c4c248169bbd531add6fb9c277fb0dd8422da M	src/site/pom.xml
+:100644 100644 60a16f2581a8f93115e3eb1796c4bece73eb62c4 d33a40f5fd9591546f03d07b1fa122ea827240fc M	src/site/src/main/java/com/community/SiteApplication.java
+:000000 100644 0000000000000000000000000000000000000000 b1561ad0cf71f6627323406d0e377a973eed4656 A	src/site/src/main/webapp/WEB-INF/web.xml
+commit cd2205361b3e370b268d7746896ae7cad38f960f
+tree 7f7e8c9398bdc22ad7408d4663cc1283075775fd
+parent 1f46d3e09972ad95c13aca20c1c209ae282f5478
+author Bruno Godoi Machado <bruno.machado@mutantbr.com> 2020-12-10 03:29:32 -0300
+committer Bruno Godoi Machado <bruno.machado@mutantbr.com> 2020-12-10 03:29:32 -0300
+
+    Jenkisfile update
+
+
+:100644 100644 b3d5d3f422764dc59794e8681b638614a9b83352 c2236766c2ed4b3a90530cba779bbd31222d402f M	Jenkinsfile
+commit 1f46d3e09972ad95c13aca20c1c209ae282f5478
+tree 59d7fa346598a5e77e33831376e8899645e41aee
+parent 526469f9706579a4c12790324a40a5b0661bc88f
+author Bruno Godoi Machado <bruno.machado@mutantbr.com> 2020-12-10 03:28:58 -0300
+committer Bruno Godoi Machado <bruno.machado@mutantbr.com> 2020-12-10 03:28:58 -0300
+
+    Jenkisfile update
+
+
+:100644 100644 d936a0267e3b8e943b767da0b7420e78dc3b259e b3d5d3f422764dc59794e8681b638614a9b83352 M	Jenkinsfile
+:000000 100644 0000000000000000000000000000000000000000 d442ac78c3005130e8ae327705ab0a6855f4ca82 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/build.xml
+:000000 100644 0000000000000000000000000000000000000000 eef62caabd0828d0493254a80c6818272c3148de A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/changelog4590709862956710728.xml
+:000000 100644 0000000000000000000000000000000000000000 c5c07e2f5d50561e3a8b6f5b7adb333ca498d65c A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/log
+:000000 100644 0000000000000000000000000000000000000000 460fde24b2099f599b3c2cc7742772d3ab9cf832 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/log-index
+:000000 100644 0000000000000000000000000000000000000000 b9676d559d9132879bfd66c94e3849565cadea1e A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/10.xml
+:000000 100644 0000000000000000000000000000000000000000 f12a436c509b1b752d60c460b88c928e74ffa22e A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/11.xml
+:000000 100644 0000000000000000000000000000000000000000 276985984a7de2598b81e2a62aa0d7801c7bc5fb A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/12.xml
+:000000 100644 0000000000000000000000000000000000000000 96c62528b78be22bbe21cbefc5041befdf7cad32 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/13.xml
+:000000 100644 0000000000000000000000000000000000000000 794c9d93261b80047b1191e582cde9c4750811f7 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/14.xml
+:000000 100644 0000000000000000000000000000000000000000 2898b3b472e9e6e6194e8e588b6f44bf96a2af4b A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/15.xml
+:000000 100644 0000000000000000000000000000000000000000 39c56795b4be8b5b7ab99a5e319da461c95755fa A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/16.xml
+:000000 100644 0000000000000000000000000000000000000000 fa94dede60b4cabbee0beba3a0d3c42c1960afd5 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/17.xml
+:000000 100644 0000000000000000000000000000000000000000 18251f3c047085885bb1668d3e2e6e71ab3acae4 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/18.xml
+:000000 100644 0000000000000000000000000000000000000000 b2d33a205038c4535b2e432c58a6a48018dc8430 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/19.xml
+:000000 100644 0000000000000000000000000000000000000000 ad33b303a16eba99e24226bae60f1616193ecd47 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/2.xml
+:000000 100644 0000000000000000000000000000000000000000 d967f8de5440ddbaf6f79a165ae7378a074e77ca A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/20.xml
+:000000 100644 0000000000000000000000000000000000000000 e87ae5bca53e11a561de46ca0cad8b3103eb4327 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/21.xml
+:000000 100644 0000000000000000000000000000000000000000 b4098385e7b826fbbd4fec438d02db022b991d33 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/22.xml
+:000000 100644 0000000000000000000000000000000000000000 92b8ff57bd92e12c5f3313aec1db81a5a8901ed8 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/23.xml
+:000000 100644 0000000000000000000000000000000000000000 e80e4c4da31f606f62720a6302511ce3dbc6a60d A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/24.xml
+:000000 100644 0000000000000000000000000000000000000000 d05d5fcd4ff6291f0ec65f19f2fcf06deb4d4e34 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/25.xml
+:000000 100644 0000000000000000000000000000000000000000 118bee50356796151b374bd85de8d41dccd9494b A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/26.xml
+:000000 100644 0000000000000000000000000000000000000000 955ac411b541cc4890beed60104424c1072ae731 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/27.xml
+:000000 100644 0000000000000000000000000000000000000000 bd7b7c122f5578f790aafe48493007adb540be8a A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/28.xml
+:000000 100644 0000000000000000000000000000000000000000 350bebf29b0a807412b2331af9b4fbedc7818ca8 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/29.xml
+:000000 100644 0000000000000000000000000000000000000000 c8b2245f8724adce3f749f0f9cc2af6ebdb3c2ec A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/3.xml
+:000000 100644 0000000000000000000000000000000000000000 c7a11b31b43ef63149509d9b2739dc576bcf937d A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/30.xml
+:000000 100644 0000000000000000000000000000000000000000 35362819788d2411753eb2ff00b2d1adb4bfdaf7 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/31.xml
+:000000 100644 0000000000000000000000000000000000000000 23ecc285882184cdf108fcf044f6b6945c4c82f4 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/32.xml
+:000000 100644 0000000000000000000000000000000000000000 98a93b3f481b69bbf113208d41418c3fcca1d427 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/33.xml
+:000000 100644 0000000000000000000000000000000000000000 8074874f74616b751aad1e7fa469f05f7137002d A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/34.xml
+:000000 100644 0000000000000000000000000000000000000000 a2fb797acfe75fc3170f753f276aeb8f1cf698ec A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/35.xml
+:000000 100644 0000000000000000000000000000000000000000 1debf1844e107bc0499e342ea8aa111bf88aaa20 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/36.xml
+:000000 100644 0000000000000000000000000000000000000000 c66db122f07b8502e33a70dc0dc43551fba1ca16 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/37.xml
+:000000 100644 0000000000000000000000000000000000000000 82c3aeead9e41771a63a7f95e7fdd4370b5aee47 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/38.xml
+:000000 100644 0000000000000000000000000000000000000000 15c1128e8ee85b6cc486220c5d81dc18136ed09d A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/39.xml
+:000000 100644 0000000000000000000000000000000000000000 8c1d912fb72f9e8a4a74f07944cbf6486f190927 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/4.xml
+:000000 100644 0000000000000000000000000000000000000000 7283745cb479b47e4d271b69eacc8b48149a9bcb A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/5.xml
+:000000 100644 0000000000000000000000000000000000000000 037f4609244c82952bae590e59036f63db8d7743 A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/6.xml
+:000000 100644 0000000000000000000000000000000000000000 d5236e03bc8be33b09616dc1f0d909a4317e76ff A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/7.xml
+:000000 100644 0000000000000000000000000000000000000000 4657752606f8429fd6fcb0fd610e67cab1406d2e A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/8.xml
+:000000 100644 0000000000000000000000000000000000000000 1f5c01f31f18100e1c8a1cbc322922c6c538ca4c A	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/10/workflow/9.xml
+:100644 100644 8d352f7a1085092ee306b2c9ab29cf32702bca81 3e0d471b0945cdba161bc1e5c07d0626cbb10251 M	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/builds/permalinks
+:100644 100644 f599e28b8ab0d8c9c57a486c89c4a5132dcbd3b2 b4de3947675361a7770d29b8982c407b0ec6b2a0 M	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/nextBuildNumber
+:100644 100644 b4304634f4b0c4f1bdb379e229ed5c41d67e6ab5 cc38eaacef1a11d7ad352fda4c9a197c60ec7c0d M	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/scm-last-seen-revision-hash.xml
+:100644 100644 b4304634f4b0c4f1bdb379e229ed5c41d67e6ab5 cc38eaacef1a11d7ad352fda4c9a197c60ec7c0d M	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/scm-revision-hash.xml
+:160000 160000 f10370fb199daed77cd676c40f050e16fbf592a6 526469f9706579a4c12790324a40a5b0661bc88f M	docker/pipeline/jenkins_home/jobs/DemoSite2/branches/main/workspace
+:100644 100644 e485e2ea5188e879f0ff36f4b21507184d7534f0 6df449388be98be5b2f4a20f447f621eaec9b250 M	docker/pipeline/jenkins_home/jobs/DemoSite2/indexing/indexing.log
+:100644 100644 04e8730b2b209712869b6c9c79dd3a9c0abb303f 14edc568c31cb0e99012d7907837b0dbfe61c9fe M	docker/pipeline/jenkins_home/jobs/DemoSite2/indexing/indexing.xml
+:100644 100644 dd74b75896f511747924fe5cb654ef30d9dda734 2db44651c5d140e9f90fd9f3c5ecee7c5781562c M	docker/pipeline/plugins.txt

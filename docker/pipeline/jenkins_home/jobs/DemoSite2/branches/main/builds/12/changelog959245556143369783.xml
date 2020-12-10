@@ -1,0 +1,10 @@
+commit 1a0054b8a652352dd7a4c3f0d96ec5c6999fb819
+tree 5e706b6cd673290f7bea09d84ced82d85ccb3694
+parent f6e16ea1b7d6703f7445967fdcf6ca64ea70721c
+author Bruno Godoi Machado <bruno.machado@mutantbr.com> 2020-12-10 04:46:07 -0300
+committer Bruno Godoi Machado <bruno.machado@mutantbr.com> 2020-12-10 04:46:07 -0300
+
+    Jenkisnfile update
+
+
+:100644 100644 f3959fb076ce2d2132a9b31ba981463502fa58c5 ce0d407b470f99e3bfe2f9a1836c7215bb158be4 M	Jenkinsfile
