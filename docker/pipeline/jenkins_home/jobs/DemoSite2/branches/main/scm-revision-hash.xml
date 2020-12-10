@@ -3,5 +3,5 @@
   <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.9.2">
     <name>main</name>
   </head>
-  <hash>f10370fb199daed77cd676c40f050e16fbf592a6</hash>
+  <hash>526469f9706579a4c12790324a40a5b0661bc88f</hash>
 </jenkins.plugins.git.AbstractGitSCMSource_-SCMRevisionImpl>

@@ -1,24 +1,26 @@
 pipeline {
     agent {
         docker {
-            image 'maven:3' 
-            args '-v /root/.m2:/root/.m2' 
+            image 'alpine' 
         }
     }
     stages {
         stage('Build') {
+            agent { 
+                docker 'maven:3-alpine'
+            } 
             steps {
                 sh 'mvn -f src/pom.xml clean install'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'mvn test'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                deploy adapters: [tomcat7(path: '', url: 'http://localhost:8888')], contextPath: '/usr/local/tomcat/webapps', onFailure: false, war: '**/*.war'
             }
         }
     }
