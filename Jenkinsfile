@@ -1,8 +1,8 @@
 pipeline {
     agent { 
         docker {
-            image: 'maven:3-jdk-8'
-            reuseNode: true
+            image 'maven:3-jdk-8'
+            reuseNode true
         }
     } 
     stages {
