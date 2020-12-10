@@ -18,6 +18,7 @@ services:
     ports:
       - "8080:8080"
       - "8443:8443"
+    #command: mv /usr/local/tomcat/webapps.dist/* /usr/local/tomcat/webapps/
     volumes:
       - ./docker/web/.keystore:/usr/local/tomcat/conf/.keystore
       - ./docker/web/server.xml:/usr/local/tomcat/conf/server.xml
