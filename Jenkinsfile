@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                deploy adapters: [tomcat7(path: '', url: 'http://localhost:8888')], contextPath: '/usr/local/tomcat/webapps', onFailure: false, war: '**/*.war'
+                deploy adapters: [tomcat7(path: '', url: 'http://localhost:8080')], contextPath: '/usr/local/tomcat/webapps', onFailure: false, war: '**/*.war'
             }
         }
     }
